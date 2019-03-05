@@ -38,7 +38,7 @@ var aText = new Array(
 
 
     function contactIn(){
-        TweenMax.staggerFromTo(".contact-el", 3 ,{opacity:0},{opacity:1, delay: 6}, 0.2 )
+        TweenMax.staggerFromTo(".contact-el", 1 ,{opacity:0, ease:Power1.easeIn},{opacity:1, ease:Power1.easeIn, delay: 6}, 0.2 )
     }
     // setTimeout(contactIn, 2000);
     contactIn();

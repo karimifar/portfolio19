@@ -1,0 +1,229 @@
+@font-face{ 
+	font-family: 'marfa008regular';
+	src: url('webfont/marfa008regular.eot');
+	src: url('webfont/marfa008regular.eot?#iefix') format('embedded-opentype'),
+	     url('webfont/marfa008regular.woff') format('woff'),
+	     url('webfont/marfa008regular.ttf') format('truetype'),
+	     url('webfont/marfa008regular.svg#webfont') format('svg');
+}
+@font-face{ 
+	font-family: 'marfa009-BoldDisplay';
+	src: url('webfont/Marfa009-BoldDisplay.eot');
+	src: url('webfont/Marfa009-BoldDisplay.eot?#iefix') format('embedded-opentype'),
+	     url('webfont/Marfa009-BoldDisplay.woff') format('woff'),
+	     url('webfont/Marfa009-BoldDisplay.ttf') format('truetype'),
+	     url('webfont/marfa008regular.svg#webfont') format('svg');
+}
+
+div.wrapper
+{
+  margin:70px auto 20px;
+  max-width:75%;
+}
+
+label span{min-width:120px; display: inline-block;}
+
+textarea{
+  font-family: 'Marfa009-BoldDisplay', Arial, sans-serif;
+  width: 100%;
+  height: 90px;
+  margin:5px 0;
+  outline: none;
+  color: black;
+  background-color: #ddd;
+  padding: 1%;
+  border: 5px;
+  border-color: black;
+  border-radius: px;
+  font-size: 60px;
+}
+
+textarea.marfa.fa{
+  font-family: 'marfa008regular', Arial, sans-serif;
+  text-align: right;
+  margin-top:10px;
+  font-size: 24px; 
+  height: 200px;
+    padding: 2%;
+
+
+  
+}
+
+textarea.marfa.en{
+  font-family: 'marfa008regular', Arial, sans-serif;
+  text-align: left;
+  margin-top:10px;
+  font-size: 24px;
+  height: 200px;
+  padding: 2%;
+
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: #666;
+  overflow-x: hidden;
+}
+
+placeholder{
+  color: aqua;
+}
+
+
+.headline{
+  margin: 20px 0 80px 0;
+}
+.headline p{
+  font-family: 'Lato', Arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  font-weight: 300;
+  font-style: ;
+  line-height: 100%;
+  margin-bottom: 0px;
+  text-align: left;
+  
+}
+.headline #hi{
+  color:white;
+  font-size: 80px;
+  font-weight:100;
+    font-style: normal;
+
+}
+.headline #underline{
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: 200;
+
+}
+
+label{
+float: right;
+margin-right: ;
+
+
+}
+label span{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+  text-align: right
+}
+
+.wrapdisplay{
+  margin-bottom: 35px;
+}
+.wrapregularen{
+  width: 48%;
+  display: inline-block;
+  margin 1%;
+}
+.wrapregularfa{
+  width: 48%;
+  float: right;
+  margin: 
+}
+
+.refreshbtn{
+  border : solid 0px #ffffff;
+  font-size : 12px;
+  color : #000000;
+  padding : 10px 20px;
+  background-color : #e8e8e8;
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+
+
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  width: 150px;
+  margin: 7px -7px 7px 7px ;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 3.3px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: rgba(185, 185, 186, 0.73);
+  border-radius: 19.6px;
+  border: 0px solid rgba(1, 1, 1, 0.88);
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0px 0px 0px #ee0000, 0px 0px 0px #ff0909;
+  border: 0px solid #ff1e00;
+  height: 18px;
+  width: 6px;
+  border-radius: 1px;
+  background: rgba(213, 49, 47, 0.9);
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.35px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: rgba(195, 195, 196, 0.73);
+}
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 3.3px;
+  cursor: pointer;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+  background: rgba(185, 185, 186, 0.73);
+  border-radius: 19.6px;
+  border: 0px solid rgba(1, 1, 1, 0.88);
+}
+input[type=range]::-moz-range-thumb {
+  box-shadow: 0px 0px 0px #ee0000, 0px 0px 0px #ff0909;
+  border: 0px solid #ff1e00;
+  height: 18px;
+  width: 6px;
+  border-radius: 1px;
+  background: rgba(213, 49, 47, 0.9);
+  cursor: pointer;
+}
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 3.3px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: rgba(175, 175, 176, 0.73);
+  border: 0px solid rgba(1, 1, 1, 0.88);
+  border-radius: 39.2px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-fill-upper {
+  background: rgba(185, 185, 186, 0.73);
+  border: 0px solid rgba(1, 1, 1, 0.88);
+  border-radius: 39.2px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
+}
+input[type=range]::-ms-thumb {
+  box-shadow: 0px 0px 0px #ee0000, 0px 0px 0px #ff0909;
+  border: 0px solid #ff1e00;
+  height: 18px;
+  width: 6px;
+  border-radius: 1px;
+  background: rgba(213, 49, 47, 0.9);
+  cursor: pointer;
+  height: 3.3px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: rgba(185, 185, 186, 0.73);
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: rgba(195, 195, 196, 0.73);
+}
+

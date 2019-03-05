@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 400;
+}
+
+a:hover{
+ text-decoration: none;
+ color: #70EE9C;
+}
+body{
+    background-color: #333;
+}
+
+#typedtext p:nth-child(2){
+    margin:0;
+}
+.container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 50%;
+    min-width: 300px;
+    height: fit-content;
+}
+
+#wrapper{
+    height: 40vh;
+    min-height: 200px;
+
+}
+#typedtext{
+    font-size: 17px;
+    color: white;
+    width:100%;
+    margin: auto;
+    max-width: 700px;
+}
+
+.contact-bar{
+    width:100%;
+    margin: auto;
+    max-width: 700px;
+}
+
+#oldsite{
+    width:70px;
+    display: inline-block;
+}
+
+.contact-el i{
+    font-size: 45px;
+}
+.contact-el{
+    color: #DDD8C4;
+    padding-right: 20px;
+    padding-top:20px;
+}
+
+.contact-el:hover{
+    color: #70EE9C;
+}
+#oldsite span{
+    font-size: 24px;
+    line-height: 0.78em;
+    font-family: museo-sans-rounded, sans-serif;
+    font-weight: 600;
+    display: block;
+}
+
+
+@keyframes blink {
+	0% {opacity: 0}
+	100% {opacity: 1}
+}
+
+#dash{animation: blink 0.8s infinite;}

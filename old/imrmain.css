@@ -1,0 +1,78 @@
+.histogram{
+    visibility: hidden;
+}
+
+
+#headline{
+    font-size: 40px;
+    font-family: "mr-eaves-modern",sans-serif;font-weight: 800;
+    line-height: 45px;
+}
+
+p{
+    width:50%;
+    margin: 5% 25% 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+
+}
+
+svg{
+    width:80%;
+    margin: 150px 10% ;
+
+}
+
+a {
+  padding: 10px;
+  border-radius:10px;
+  margin-top: 2rem;
+  background: #E04A18;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 14%;
+  margin: -200px 43% 100px;
+  text-align: center;
+  font-family: "mr-eaves-modern",sans-serif;font-weight: 800;
+}
+
+input {
+  border-top: 1px solid #c1272c;
+   background: #c1272c;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e04a18), to(#c1272c));
+   background: -webkit-linear-gradient(top, #e04a18, #c1272c);
+   background: -moz-linear-gradient(top, #e04a18, #c1272c);
+   background: -ms-linear-gradient(top, #e04a18, #c1272c);
+   background: -o-linear-gradient(top, #e04a18, #c1272c);
+   padding: 5px 20px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #ffffff;
+    
+  max-width: 14%;
+  margin: -200px 43% 100px;
+  text-align: center;
+  font-family: "mr-eaves-modern",sans-serif;font-weight: 500;
+  font-size: 24px;
+  cursor: pointer;
+
+}
+
+input:hover{
+    border-top-color: #124d78;
+   background: #124d78;
+   color: #ccc;
+}
+input:active{
+    border-top-color: #1b435e;
+   background: #1b435e;
+}

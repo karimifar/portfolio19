@@ -1,0 +1,376 @@
+
+/* ==Header & main menu starts== */
+
+
+#header{
+  background-color: rgba(250 , 250, 250, 0.9);
+  width: 100%;
+  height:90px;
+  margin:0;
+  padding: 0;
+  position:fixed;
+  display: block;
+  z-index: 23;
+  transition: all 0.6s ease;
+  
+}
+/* -scroll styling- */
+#header.small{
+  height:50px;
+}
+#logo.small{
+  width: 50px;
+  margin-left: 10%;
+}
+#title.small{
+  display: none;
+}
+#menu.small{
+  margin-right: 8%;
+}
+#menu.small a{
+  font-size: 12px;
+}
+  /* -scroll styling- */
+
+#title{
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  font-weight: 700;
+  width: 21%;
+  margin: 20px 0 0 0%;
+  display: inline-block;
+  vertical-align: top;
+  transition: all 0.6s ease;
+}
+#title name{
+  font-family: 'Open Sans', serif;
+  padding-bottom: 6px;
+  display: block;
+  vertical-align: bottom;
+}
+#logo{
+  width: 90px;
+  display: inline;
+  margin: 8px 0 0 20%;
+  transition: all 0.6s ease;
+  
+}
+#title sub{
+  padding-top: 0px;
+  font-size: 14px;
+  font-weight:300;
+  vertical-align: top;
+}
+
+
+
+#menu{
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 20% 0 0%;
+  float: right;
+  transition: all 1s ease;
+
+}
+
+#menu a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 5px;
+  padding: 3px;
+  float: right;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+#menu a:hover {
+transform: scale(0.9);
+opacity: 1;
+} 
+a{color: black;
+text-decoration: none;}
+a:visited {color:black;
+text-decoration: none;}
+/* ==Header & main menu ends== */
+
+/* ==Slideshow starts== */
+#slideshow{
+  background-color;
+  max-width: 100%;
+  height:70vh;
+  position:relative;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.mySlides{
+  width: 100%;
+  height: 100%;
+  display: inline;
+  position: absolute;
+  z-index: 2;
+}
+
+.mySlides img{
+  height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  display: inline;
+  position: absolute;
+  z-index: 2;
+  vertical-align: top;
+}
+
+.mySlides p{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 10px;
+  right:15px;
+  margin-left: 76%;
+  position: absolute;
+  bottom: 8%;
+  background-color: rgba(0 , 0, 0, 0.35); 
+  width: auto;
+  text-align: left;
+  z-index: 4;
+  text-align: right;
+  transition: all 0.3s ease-out;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0.5} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0.5} 
+  to {opacity: 1}
+}
+/* ==Slideshow ends== */
+
+
+/* ==Works chunk starts== */
+#works{
+  position:;
+  background-color:;
+  width: 100%;
+  margin-top:0px;
+  z-index: 20;
+}
+
+.grid {
+  margin: 4% 15% 5% 15%;
+  padding: 0;
+  width: 70%;
+  background-color: ;
+  list-style: none;
+
+}
+
+.flex-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  background-color: ;
+  border-style: solid;
+  border-color: #aaa;
+  border-width: 1px;
+  min-width: 30.5%;
+  max-width: 30.5%;
+  height:  230px;
+  margin: 1%;
+  position: relative;
+  overflow:hidden;
+  *display: inline;
+}
+
+.flex-item img {
+  max-width: 100%;
+   -webkit-filter: opacity(0.6) contrast(1.5);
+  filter: opacity(1) brightness(1.1) saturate(0.7);
+  height: 100%;
+  min-width: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+  transition: all .3s ease-out;
+}
+
+
+.flex-item p{
+  width: 90%;
+  height: 230px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 13px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  padding: 100px 5%;
+  margin-right: 20px;
+  background: rgba(25, 25, 25, 0.8);
+  transition: all 0.5s ease;
+  text-align: center;
+}
+
+span{
+  font-weight: 300;
+}
+
+li:nth-child(n):hover p{
+  visibility: visible;
+  opacity: 1;
+}
+li:nth-child(n):hover img{
+  transform: scale(1.2);
+  -webkit-filter: blur();
+}
+/* ==Works chunk ends== */
+
+
+/* ==Footer starts== */
+
+footer{
+  background-color: rgb(240 , 240, 240);
+  height:75px;
+  margin: auto;
+  
+}
+.socialmedia{
+  margin-right: 15%;
+  float: right;
+  width: 30%;
+  transition: all 0.3s ease-out;
+
+}
+.socialmedia img{
+  width: 25px;
+  margin: 10px 4px;
+  float: right;
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+
+#copyright{
+  display: inline-block;
+  margin-left: 15%;
+  float: left;
+  width:30%;
+  font-family: 'Open sans';
+  font-size: 12px;
+  transition: all 0.3s ease-out;
+
+}
+#copyright p{
+  margin-top: 10px;
+}
+
+.socialmedia img:hover {
+transform: scale(0.8);
+opacity: 1;
+}
+/* ==Footer ends== */
+.allwrap{
+  overflow-x:hidden;
+}
+
+
+
+#scrolltowork{
+  width: 100%;
+  height: 10px;
+  
+}
+
+/* ---- Filter button ---- */
+.button-group {
+  margin: 3% 15% -3% 15%;
+  background-color:rgba(140 , 140, 140, 0.1);;
+  padding: 1% ;
+  width: 67%;
+  border-radius: 15px;
+  /*border-bottom: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: rgba(40 , 40, 40, 0.3);
+  border-top: solid;
+  border-top-width: 2px;
+  border-top-color: rgba(40 , 40, 40, 0.3);  */
+  
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5em 1.0em;
+  background: none;
+  border: none;
+  border-radius: 0px;
+  background-image: 
+  color: #222;
+  font-family: 'Open sans';
+  font-size: 14px;
+  transition: all 0.15s ease-out;
+  cursor: pointer;
+  opacity: 0.7;
+  margin: 0;
+  border-left: 
+}
+
+.button:hover {
+  transform: scale(0.85);
+  opacity: 1;
+  text-decoration: underline;
+
+
+  
+
+}
+
+.button:active,
+.button.is-checked {
+  /*background-color: rgba(0 , 0, 0, 0.5); */
+  color: black;
+  font-weight: 700;
+  border-radius: ;
+  text-decoration: underline;
+  opacity: 1;
+
+}
+
+.button.is-checked {
+}
+
+
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  margin-left: 0;
+  margin-right: 5px;
+}
+a{
+ cursor: pointer;
+ 
+}
+
+
+

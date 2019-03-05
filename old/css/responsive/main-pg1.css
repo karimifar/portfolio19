@@ -1,0 +1,72 @@
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body{
+    background-color: ;
+  }
+
+/* ==Header & main menu starts== */
+#title{
+  font-size:16px;
+  width: 30%;
+  transition: all 0.3s ease-out;
+}
+
+#logo{
+  width: 75px;
+  margin: 8px 0 0 10%; 
+}
+
+
+#menu{
+  width: 30%;
+  margin: 20px 10% 0 0;
+}
+/* ==Header & main menu ends== */
+  
+  
+/* ==slideshow gets shorter== */
+  #slideshow{
+height: 60vh;
+}
+
+  
+/* ==Works starts== */
+  .button-group {
+  margin: 3% 10% -3% 10%;
+  background-color:rgba(140 , 140, 140, 0.1);;
+  padding: 1% ;
+  width: 77%;
+  border-radius: 15px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  
+  
+.grid {
+  margin: 3% 10% 5% 10%;
+  padding: 0;
+  width: 80%;
+}
+  
+ .flex-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  min-width: 47%;
+  max-width: 47%;
+  height:  230px;
+  *display: inline;
+
+}
+/* ==Works ends== */
+  
+  
+/* ==Footer starts== */
+  #copyright{
+    margin-left: 10%;
+    width: 40%
+  }
+  .socialmedia{
+    margin-right: 10%
+  }
+/* ==Footer ends== */
+  

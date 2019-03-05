@@ -1,0 +1,11 @@
+@media screen and (min-width: 1900px) {
+  .flex-item {
+  height: 320px;
+}
+  
+  iframe{
+    height: 540px;
+  }
+  .flex-item p{
+    padding: 150px 5%;}
+  

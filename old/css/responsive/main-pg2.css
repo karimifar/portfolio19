@@ -1,0 +1,109 @@
+@media screen and (max-width: 700px) {
+  body {
+    background-color:;
+  }
+
+  
+  /* ==Header starts== */
+  #header{
+    position: absolute;
+    display: block;
+    margin-top: -100px;
+    z-index: 40;
+  }
+ #title{
+    width: 30%;
+    display: none;
+  }
+  
+  #title sub{
+    opacity: 0;
+  }
+  
+  #logo{
+  width: 75px;
+  display: inline;
+  margin: 8px 0 0 5%;
+  transition: all 0.3s ease-out;
+}
+  
+  #menu{
+    width: 50%;
+    margin-right: 5%;
+  }
+/* ==Header ends== */
+  
+ 
+/* -slideshow gets shorter- */
+  #slideshow{
+    margin-top:100px;
+    height: 300px;
+    overflow: visible
+}
+   .mySlides p{
+     margin-left: 55%;
+}
+  
+
+/* ==Works starts== */
+  
+   .button-group {
+  margin: 3% 5% -3% 5%;
+  background-color:rgba(140 , 140, 140, 0.1);;
+  padding: 1% ;
+  width: 87%;
+  border-radius: 15px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  
+  .grid {
+  margin: 3% 5% 5% 5%;
+  padding: 0;
+  width: 90%;
+}
+  
+  .flex-item {
+  min-width: 47%;
+  max-width: 47%;
+  height: 180px;
+}
+  
+  .flex-item p{
+    width: 80%;
+      padding: 80px 10%;
+}
+  
+/* ==Works ends== */
+  
+
+/* ==footer starts== */
+ #copyright{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+  }
+  .socialmedia{
+    align-content: center;
+    width: 30%;
+    margin: 1% 35%;
+  }
+  .socialmedia img{
+  width: 15%;
+  margin: 1% 3%;
+  float: none;
+  opacity: 0.5;
+  transition: all 0.3s ease-out;
+}
+  
+  footer{
+    height: 100px;
+  }
+/* ==footer ends== */
+
+
+  
+}

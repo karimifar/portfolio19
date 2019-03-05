@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARFA</title>
+    <link rel="stylesheet" href="marfacss/normalize.css">    
+    <link rel="stylesheet" href="marfacss/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    
+
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="marfajs/main.js"></script>
+    
+    <!-- Google Analytics snippet -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-107706155-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <!-- Google Analytics snippet -->
+    
+    
+  </head>
+  
+
+
+  <body>
+    <div class="wrapper">
+      <div class="headline">
+        <p><span id="hi">Hello!<br> </span><br> Do you wanna give Marfa a test?<br>Click on each text box to type with Marfa</p>
+        
+      
+      </div>
+      
+      <div class="wrapdisplay">
+      
+        <label>
+          <span>Font Size: </span>
+          <input class="slider display en" onchange="updateParam('.display.en')" type="range" min="5" max="80"/>
+        </label><br>
+
+        <textarea class="display en" rows="4" cols="50" placeholder="Test Marfa here!">Type with Marfa display</textarea>
+        
+      </div>
+      
+      
+      <div class="wrapregulars">
+        
+        <div class="wrapregularen">
+          <label>
+            <span>Font Size: </span>
+            <input class="slider marfa en" onchange="updateParam('.marfa.en')" type="range" min="5" max="80"/>
+          </label><br>
+
+
+          <textarea class="marfa en" rows="" cols="" placeholder="Test Marfa here!" oninput="updatePersian()">Type in Marfa regular Latin and see what Marfa regular Persian looks like in the next text box!</textarea>
+        </div>
+        
+        <div class="wrapregularfa">
+
+          <label>
+            <span>Font Size:  </span>
+            <input class="slider marfa fa" onchange="updateParam('.marfa.fa')" type="range" min="5" max="80"/>
+          </label><br>
+          <textarea lang="fa" class="marfa fa" rows="" cols="" placeholder="مارفا را تست کنید">اگر در تکست باکس روبرو انگلیسی تایپ کنید میتوانید حروف فارسی را در این تکست باکس مشاهده کنید</textarea>
+
+        </div>
+        
+        <input class="refreshbtn" type="button" value="Refresh Page" onClick="window.location.reload()">
+
+        
+      </div>
+
+    </div>
+    
+    
+    
+  </body>
+  
+     
+</html>
+  
+ 

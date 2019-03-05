@@ -1,0 +1,100 @@
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body{
+    background-color:;
+  }
+  
+  /* ==Header & main menu starts== */
+  #header{
+  position:fixed;
+}
+  
+  .project_container{
+    width: 60%;
+    margin: 50px 20%;
+  }
+  
+  
+  #title{
+    width: 30%;
+  }
+  
+  #title sub{
+    opacity: 1;
+  }
+  
+  #header.small{
+      background-color: rgba(250 , 250, 250,0.95);
+  }
+  
+  #logo{
+  width: 75px;
+  display: inline;
+  margin: 8px 0 0 10%;
+  transition: all 0.3s ease-out;
+}
+  
+  #menu{
+    width: 30%;
+    margin-right: 10%;
+  }
+  
+  #menu.small{
+    width: 30%;
+    margin-right: 7%;
+  }
+/* ==Header & main menu ends== */
+  
+
+/* ==Project description stacks== */
+.project-description{
+    position: relative;
+    width: 92%;
+    right: auto;
+    padding: 50px 4%;
+    height: auto;
+    margin-bottom: 10%;
+  }
+  
+  #separator{
+    width: 90%;
+  }
+  
+/* ==Works starts== */
+  .button-group {
+  margin: 0% 10% -1% 10%;
+  background-color:rgba(140 , 140, 140, 0.1);;
+  padding: 1% ;
+  width: 77%;
+  border-radius: 15px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  
+.grid {
+  margin: 3% 10% 5% 10%;
+  padding: 0;
+  width: 80%;
+}
+  
+ .flex-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  min-width: 47%;
+  max-width: 47%;
+  *display: inline;
+
+}
+/* ==Works ends== */
+
+/* ==Footer == */  
+   #copyright{
+    margin-left: 10%;}
+  
+  .socialmedia{
+  margin-right: 10%;
+  }
+
+  
+  
+}

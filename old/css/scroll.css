@@ -1,0 +1,10 @@
+.project-description
+{
+	opacity:1;
+	transition:opacity 0.5s;
+}
+
+.project-description.fade
+{
+	opacity:0;
+}
